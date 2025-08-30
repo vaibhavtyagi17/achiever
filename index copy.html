@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Tyagi - Star Wars Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Starfield Background -->
+    <div id="starfield"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">VT</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">VAIBHAV</span>
+                        <span class="title-line">TYAGI</span>
+                    </h1>
+                    <p class="hero-subtitle">AI Engineer & Full Stack Developer</p>
+                    <p class="hero-description">Crafting intelligent solutions in the digital galaxy</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hologram-container">
+                        <div class="hologram">
+                            <div class="hologram-ring ring-1"></div>
+                            <div class="hologram-ring ring-2"></div>
+                            <div class="hologram-ring ring-3"></div>
+                            <div class="hologram-core"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About the Developer</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        A passionate Computer Science student at VIT Bhopal University with a CGPA of 8.94, 
+                        specializing in AI/ML and full-stack development. I engineer intelligent solutions 
+                        that bridge the gap between cutting-edge technology and real-world applications.
+                    </p>
+                    <div class="education-grid">
+                        <div class="education-item">
+                            <h3>VIT Bhopal University</h3>
+                            <p>BTech in Computer Science and Engineering</p>
+                            <span class="gpa">CGPA: 8.94</span>
+                        </div>
+                        <div class="education-item">
+                            <h3>Father Agnel School</h3>
+                            <p>XIIth PCM+CS</p>
+                            <span class="percentage">94.8%</span>
+                        </div>
+                        <div class="education-item">
+                            <h3>Father Agnel School</h3>
+                            <p>Xth</p>
+                            <span class="percentage">92.6%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">AI Accuracy</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98.24%</div>
+                        <div class="stat-label">Model Precision</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">40%</div>
+                        <div class="stat-label">Performance Boost</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Python">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item" data-skill="C++">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <span class="skill-name">C++</span>
+                        </div>
+                        <div class="skill-item" data-skill="SQL">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span class="skill-name">SQL (MySQL)</span>
+                        </div>
+                        <div class="skill-item" data-skill="HTML/CSS">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span class="skill-name">HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="PyTorch">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <span class="skill-name">PyTorch</span>
+                        </div>
+                        <div class="skill-item" data-skill="TensorFlow">
+                            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                            <span class="skill-name">TensorFlow</span>
+                        </div>
+                        <div class="skill-item" data-skill="NumPy">
+                            <div class="skill-icon"><i class="fas fa-calculator"></i></div>
+                            <span class="skill-name">NumPy</span>
+                        </div>
+                        <div class="skill-item" data-skill="Pandas">
+                            <div class="skill-icon"><i class="fas fa-table"></i></div>
+                            <span class="skill-name">Pandas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="AWS">
+                            <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                            <span class="skill-name">AWS</span>
+                        </div>
+                        <div class="skill-item" data-skill="Docker">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                        <div class="skill-item" data-skill="CI/CD">
+                            <div class="skill-icon"><i class="fas fa-sync-alt"></i></div>
+                            <span class="skill-name">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mission Reports</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Hand Face Rapid Response System</h3>
+                        <span class="project-date">Feb 2024 - May 2024</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">OpenCV</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>95% predictive accuracy for real-time gesture and facial expression detection</li>
+                        <li>Integrated 5+ web browser features for enhanced user experience</li>
+                        <li>Automated email alert system reducing response time by 40%</li>
+                        <li>Trained deep learning models with 100,000+ labeled images</li>
+                        <li>30% improvement in real-time processing speed</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">SafeScan.ai</h3>
+                        <span class="project-date">Jan 2025 - Feb 2025</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">XGBoost</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>98.24% accuracy in classifying malignant vs benign tumors</li>
+                        <li>99.1% sensitivity in identifying true positive malignant tumors</li>
+                        <li>40% reduction in model training time through optimized hyperparameters</li>
+                        <li>Advanced feature selection with correlation analysis</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">FlickPic</h3>
+                        <span class="project-date">Jun 2025 - Jul 2025</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Cosine Similarity</span>
+                        <span class="tech-tag">Heroku</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Content-based recommender system with 85%+ user satisfaction</li>
+                        <li>Recommendation latency under 1 second per query</li>
+                        <li>Flask web app deployed on Heroku serving 500+ monthly users</li>
+                        <li>Automated data preprocessing and scalable API design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Establish Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Communication Channel</h3>
+                            <p>+91 7048928574</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Data Transmission</h3>
+                            <p>vaibhav707tyagi@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Professional Network</h3>
+                            <p>linkedin.com/in/vaibhav17t</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Code Repository</h3>
+                            <p>github.com/vaibhavtyagi17</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Transmission</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Vaibhav Tyagi. May the Force be with you.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
